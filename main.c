@@ -39,7 +39,7 @@ int main()
     for(i=0;i<N;i++)
     {
         if(dolap.adetler[i] <= 20)
-        printf("ilac adi: %s \tadet: %d \tfiyat: %d\n",dolap.isimler[i],dolap.adetler[i],dolap.fiyatlar[i]);
+            printf("ilac adi: %s \tadet: %d \tfiyat: %d\n",dolap.isimler[i],dolap.adetler[i],dolap.fiyatlar[i]);
     }
 
     return 0;
